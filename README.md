@@ -6,7 +6,7 @@ ChessAI is a personal engineering passion project I created to explore a questio
 
 The result is an experimental Android prototype that combines screen capture, computer vision, chess-state tracking, Stockfish analysis, and an on-screen recommendation overlay.
 
-> \\\\\\\\\\\\\\\*\\\\\\\\\\\\\\\*Project context:\\\\\\\\\\\\\\\*\\\\\\\\\\\\\\\* I created the concept, requirements, feature direction, testing process, and iterative design of this project. My prior programming experience was primarily basic Python, so I used AI coding assistants extensively to help implement and debug the Android/Kotlin code. I do not represent the entire codebase as being handwritten by me. This project represents my experience using engineering problem-solving, experimentation, testing, and AI-assisted development to turn an idea into a working prototype.
+> \*\*Project context:\*\* I created the concept, requirements, feature direction, testing process, and iterative design of this project. My prior programming experience was primarily basic Python, so I used AI coding assistants extensively to help implement and debug the Android/Kotlin code. I do not represent the entire codebase as being handwritten by me. This project represents my experience using engineering problem-solving, experimentation, testing, and AI-assisted development to turn an idea into a working prototype.
 
 \---
 
@@ -200,7 +200,9 @@ My goal is not to present it as a finished commercial application, but to use it
 
 ## Third-Party Software and References
 
-### \### Stockfish
+
+Stockfish
+---
 
 ### 
 
@@ -226,12 +228,11 @@ My goal is not to present it as a finished commercial application, but to use it
 
 ### 
 
-### ```text
-
 app/src/main/jniLibs/arm64-v8a/libstockfish.so
 
-Chess-Tracker
----
+
+
+## Chess-Tracker
 
 Early experimentation for this project was informed by the **Chess-Tracker** project by yaseralie:
 
@@ -241,7 +242,7 @@ That project provided an early reference while I was exploring chessboard tracki
 
 ChessAI subsequently developed into an Android/Kotlin implementation incorporating Android screen capture, on-screen overlays, virtual board-state tracking, legal-move validation, Stockfish integration, and additional move-detection and recovery systems.
 
-See `THIRD\\\\\\\\\\\\\\\_PARTY\\\\\\\\\\\\\\\_NOTICES.md` for attribution information.
+See `THIRD\_PARTY\_NOTICES.md` for attribution information.
 
 \---
 
