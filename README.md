@@ -86,6 +86,13 @@ Rather than relying entirely on pixel differences, detected visual changes are c
 * AI-assisted software development
 
 \---
+### 🚀 Try the App (Pre-Built APK)
+
+Skip the setup! If you want to test the application right away without downloading the source code, setting up Android Studio, or compiling the heavy native C++ Stockfish engines yourself, you can download the ready-to-install app directly from the latest tag:
+
+* 👉 **[Download the Pre-Built ChessAI APK](https://github.com)**
+* 📦 **File Size:** ~456 MB (Includes pre-compiled Stockfish binaries for instant, out-of-the-box performance).
+* 📱 **Quick Install:** Download the file directly to your Android device, allow sideloading when prompted by your browser, and launch the app to test the real-time computer vision pipeline and overlay UI.
 
 ## Engineering Challenges and Iterations
 
