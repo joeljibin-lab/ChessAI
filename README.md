@@ -43,10 +43,11 @@ These settings reduce unnecessary visual changes between frames and make it easi
 The current version should therefore be considered a **prototype optimized for the environment in which it was developed and tested**, rather than a universal chess-interface recognition system.
 
 ### Example Testing Configuration
+<img width="1536" height="1024" alt="chessai-demo" src="https://github.com/user-attachments/assets/3e92ccdb-e785-4aa9-b754-97e496b70b2b" />
 
-!\[ChessAI testing environment and demonstration](https://raw.githubusercontent.com/joeljibin-lab/ChessAI/main/images/chessai-demo.png)
 
-\---
+
+---
 
 ## How It Works
 
@@ -254,7 +255,7 @@ That project provided an early reference while I was exploring chessboard tracki
 
 ChessAI subsequently developed into an Android/Kotlin implementation incorporating Android screen capture, on-screen overlays, virtual board-state tracking, legal-move validation, Stockfish integration, and additional move-detection and recovery systems.
 
-See `THIRD\\\\\\\_PARTY\\\\\\\_NOTICES.md` for attribution information.
+See `THIRD_PARTY_NOTICES.md` for attribution information.
 
 \---
 
