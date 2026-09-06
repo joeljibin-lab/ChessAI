@@ -44,9 +44,7 @@ The current version should therefore be considered a **prototype optimized for t
 
 ### Example Testing Configuration
 
-!\[ChessAI testing environment and demonstration](https://github.com/joeljibin-lab/ChessAI/blob/main/images/chessai-demo.png)
-
-\---
+!\[ChessAI testing environment and demonstration](https://github.com/joeljibin-lab/ChessAI/raw/main/images/chessai-demo.png)---
 
 ## How It Works
 
