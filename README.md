@@ -243,7 +243,7 @@ That project provided an early reference while I was exploring chessboard tracki
 
 ChessAI subsequently developed into an Android/Kotlin implementation incorporating Android screen capture, on-screen overlays, virtual board-state tracking, legal-move validation, Stockfish integration, and additional move-detection and recovery systems.
 
-See `THIRD\\\\\\\_PARTY\\\\\\\_NOTICES.md` for attribution information.
+See `THIRD_PARTY_NOTICES.md` for attribution information.
 
 \---
 
