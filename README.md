@@ -44,11 +44,15 @@ The current version should therefore be considered a **prototype optimized for t
 
 ### Example Testing Configuration
 
+\### Example Testing Configuration
+
+
+
 !\[ChessAI testing environment and demonstration](images/chessai-demo.png)
 
-\---
 
-## How It Works
+
+\---How It Works
 
 At a high level, the application follows this pipeline:
 
@@ -201,8 +205,8 @@ My goal is not to present it as a finished commercial application, but to use it
 ## Third-Party Software and References
 
 
-Stockfish
----
+
+## Stockfish
 
 ### 
 
@@ -242,7 +246,7 @@ That project provided an early reference while I was exploring chessboard tracki
 
 ChessAI subsequently developed into an Android/Kotlin implementation incorporating Android screen capture, on-screen overlays, virtual board-state tracking, legal-move validation, Stockfish integration, and additional move-detection and recovery systems.
 
-See `THIRD\_PARTY\_NOTICES.md` for attribution information.
+See `THIRD\\\_PARTY\\\_NOTICES.md` for attribution information.
 
 \---
 
