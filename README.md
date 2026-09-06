@@ -203,7 +203,7 @@ My goal is not to present it as a finished commercial application, but to use it
 
 
 
-## \### Stockfish
+## \ Stockfish
 
 ## 
 
@@ -243,7 +243,7 @@ My goal is not to present it as a finished commercial application, but to use it
 
 ## 
 
-## See `THIRD\_PARTY\_NOTICES.md` for additional Stockfish licensing information.
+## See `THIRD_PARTY_NOTICES.md` for additional Stockfish licensing information.
 
 ## Chess-Tracker
 
