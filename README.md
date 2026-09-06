@@ -6,7 +6,7 @@ ChessAI is a personal engineering passion project I created to explore a questio
 
 The result is an experimental Android prototype that combines screen capture, computer vision, chess-state tracking, Stockfish analysis, and an on-screen recommendation overlay.
 
-> \*\*Project context:\*\* I created the concept, requirements, feature direction, testing process, and iterative design of this project. My prior programming experience was primarily basic Python, so I used AI coding assistants extensively to help implement and debug the Android/Kotlin code. I do not represent the entire codebase as being handwritten by me. This project represents my experience using engineering problem-solving, experimentation, testing, and AI-assisted development to turn an idea into a working prototype.
+> Project context: I created the concept, requirements, feature direction, testing process, and iterative design of this project. My prior programming experience was primarily basic Python, so I used AI coding assistants extensively to help implement and debug the Android/Kotlin code. I do not represent the entire codebase as being handwritten by me. This project represents my experience using engineering problem-solving, experimentation, testing, and AI-assisted development to turn an idea into a working prototype.
 
 \---
 
