@@ -6,25 +6,25 @@ ChessAI is a personal engineering passion project I created to explore a questio
 
 The result is an experimental Android prototype that combines screen capture, computer vision, chess-state tracking, Stockfish analysis, and an on-screen recommendation overlay.
 
-> **Project context:** I created the concept, requirements, feature direction, testing process, and iterative design of this project. My prior programming experience was primarily basic Python, so I used AI coding assistants extensively to help implement and debug the Android/Kotlin code. I do not represent the entire codebase as being handwritten by me. This project represents my experience using engineering problem-solving, experimentation, testing, and AI-assisted development to turn an idea into a working prototype.
+> \\\\\\\\\\\\\\\*\\\\\\\\\\\\\\\*Project context:\\\\\\\\\\\\\\\*\\\\\\\\\\\\\\\* I created the concept, requirements, feature direction, testing process, and iterative design of this project. My prior programming experience was primarily basic Python, so I used AI coding assistants extensively to help implement and debug the Android/Kotlin code. I do not represent the entire codebase as being handwritten by me. This project represents my experience using engineering problem-solving, experimentation, testing, and AI-assisted development to turn an idea into a working prototype.
 
----
+\---
 
 ## What It Does
 
 ChessAI runs alongside a digital chess game on Android and attempts to:
 
-- Capture the chessboard from the screen in real time.
-- Detect changes to the board as moves are played.
-- Maintain an internal virtual chessboard and FEN state.
-- Validate visually detected moves against legal chess moves.
-- Analyze the current position using Stockfish.
-- Display the top engine recommendations directly over the board.
-- Display possible opponent moves.
-- Recover manually from a move missed by automatic detection.
-- Handle board orientation when playing as either White or Black.
+* Capture the chessboard from the screen in real time.
+* Detect changes to the board as moves are played.
+* Maintain an internal virtual chessboard and FEN state.
+* Validate visually detected moves against legal chess moves.
+* Analyze the current position using Stockfish.
+* Display the top engine recommendations directly over the board.
+* Display possible opponent moves.
+* Recover manually from a move missed by automatic detection.
+* Handle board orientation when playing as either White or Black.
 
----
+\---
 
 ## Current Testing Environment
 
@@ -32,11 +32,11 @@ The current prototype was developed and tested primarily with the **Chess.com br
 
 For more consistent computer-vision input during development, I used a controlled visual configuration:
 
-- Chess.com browser version on Android.
-- Standard chessboard/piece appearance used consistently during testing.
-- Move animation set to **Fast**.
-- Previous-move square highlighting disabled.
-- Consistent board orientation and layout during a game.
+* Chess.com browser version on Android.
+* Standard chessboard/piece appearance used consistently during testing.
+* Move animation set to **Fast**.
+* Previous-move square highlighting disabled.
+* Consistent board orientation and layout during a game.
 
 These settings reduce unnecessary visual changes between frames and make it easier for the computer-vision system to distinguish an actual chess move from interface animations or highlights.
 
@@ -44,9 +44,9 @@ The current version should therefore be considered a **prototype optimized for t
 
 ### Example Testing Configuration
 
-![ChessAI testing environment and demonstration](images/chessai-demo.png)
+!\[ChessAI testing environment and demonstration](images/chessai-demo.png)
 
----
+\---
 
 ## How It Works
 
@@ -74,17 +74,17 @@ Rather than relying entirely on pixel differences, detected visual changes are c
 
 ## Technologies
 
-- Kotlin
-- Android SDK
-- OpenCV
-- Stockfish
-- FEN and chess move-state tracking
-- Android MediaProjection
-- Android overlay services
-- Gemini API for experimental board-recognition functionality
-- AI-assisted software development
+* Kotlin
+* Android SDK
+* OpenCV
+* Stockfish
+* FEN and chess move-state tracking
+* Android MediaProjection
+* Android overlay services
+* Gemini API for experimental board-recognition functionality
+* AI-assisted software development
 
----
+\---
 
 ## Engineering Challenges and Iterations
 
@@ -104,12 +104,12 @@ Animations, captures, interface effects, and rapid moves can cause screenshots o
 
 The application combines:
 
-- Visual change detection
-- Multiple stable observations
-- Source/destination evidence
-- Current piece occupancy
-- Legal-move validation
-- Internal board state
+* Visual change detection
+* Multiple stable observations
+* Source/destination evidence
+* Current piece occupancy
+* Legal-move validation
+* Internal board state
 
 rather than accepting a move based only on raw pixel differences.
 
@@ -133,7 +133,7 @@ If multiple pieces could legally reach that square, the user can additionally id
 
 After recovery, the application establishes a fresh visual baseline and continues tracking the game.
 
----
+\---
 
 ## Development and Testing Approach
 
@@ -150,7 +150,7 @@ This project was developed iteratively through repeated gameplay tests:
 
 This iterative process was particularly important because many problems only became apparent when screen capture, computer vision, Android overlays, chess logic, and the external chess interface were all operating simultaneously.
 
----
+\---
 
 ## AI-Assisted Development
 
@@ -158,21 +158,21 @@ AI coding assistants were used extensively throughout this project to generate, 
 
 My role focused on:
 
-- Originating the project idea
-- Defining the application's requirements
-- Deciding desired behavior and features
-- Evaluating proposed approaches
-- Testing implementations
-- Identifying failures during real gameplay
-- Interpreting application behavior and diagnostic logs
-- Making design and tradeoff decisions
-- Directing subsequent iterations
+* Originating the project idea
+* Defining the application's requirements
+* Deciding desired behavior and features
+* Evaluating proposed approaches
+* Testing implementations
+* Identifying failures during real gameplay
+* Interpreting application behavior and diagnostic logs
+* Making design and tradeoff decisions
+* Directing subsequent iterations
 
 My programming experience before this project was primarily basic Python. I would not claim that I could independently reproduce the entire Android/Kotlin codebase from scratch.
 
 Instead, this project represents my experience using modern development tools, technical experimentation, and engineering problem-solving to take an original idea significantly beyond my previous software experience and develop it into a working prototype.
 
----
+\---
 
 ## Current Limitations
 
@@ -180,15 +180,15 @@ ChessAI is an experimental prototype, not production chess software.
 
 Current limitations include:
 
-- The computer-vision system has been developed around a specific visual chess interface and configuration.
-- Rapid visual changes or interrupted screen capture can occasionally cause a move to be missed.
-- Manual recovery may still be required in some games.
-- Different board themes, piece sets, animations, highlights, screen sizes, or interface layouts may require additional calibration or development.
-- Some experimental functionality remains in the codebase as the project continues to evolve.
+* The computer-vision system has been developed around a specific visual chess interface and configuration.
+* Rapid visual changes or interrupted screen capture can occasionally cause a move to be missed.
+* Manual recovery may still be required in some games.
+* Different board themes, piece sets, animations, highlights, screen sizes, or interface layouts may require additional calibration or development.
+* Some experimental functionality remains in the codebase as the project continues to evolve.
 
 These limitations are also useful areas for future development.
 
----
+\---
 
 ## Project Status
 
@@ -196,23 +196,42 @@ ChessAI is an ongoing personal learning and engineering project.
 
 My goal is not to present it as a finished commercial application, but to use it to explore computer vision, Android development, chess engines, state tracking, debugging, and AI-assisted software development.
 
----
+\---
 
 ## Third-Party Software and References
 
-### Stockfish
+### \### Stockfish
 
-ChessAI uses the **Stockfish** chess engine for position analysis and move recommendations.
+### 
 
-Stockfish is free software licensed under the GNU General Public License version 3 (GPL v3).
+### ChessAI uses the Stockfish chess engine for position analysis and move recommendations.
 
-Official project:
+### 
 
-https://github.com/official-stockfish/Stockfish
+### Stockfish is free software licensed under the GNU General Public License version 3 (GPL v3).
 
-See `THIRD_PARTY_NOTICES.md` for additional information.
+### 
 
-### Chess-Tracker
+### Official project:
+
+### https://github.com/official-stockfish/Stockfish
+
+### 
+
+### The compiled Stockfish binaries are not included in this repository because they exceed GitHub's individual file-size limit.
+
+### 
+
+### To run the project, provide a Stockfish binary compiled for Android and place it in the appropriate ABI directory:
+
+### 
+
+### ```text
+
+app/src/main/jniLibs/arm64-v8a/libstockfish.so
+
+Chess-Tracker
+---
 
 Early experimentation for this project was informed by the **Chess-Tracker** project by yaseralie:
 
@@ -222,9 +241,9 @@ That project provided an early reference while I was exploring chessboard tracki
 
 ChessAI subsequently developed into an Android/Kotlin implementation incorporating Android screen capture, on-screen overlays, virtual board-state tracking, legal-move validation, Stockfish integration, and additional move-detection and recovery systems.
 
-See `THIRD_PARTY_NOTICES.md` for attribution information.
+See `THIRD\\\\\\\\\\\\\\\_PARTY\\\\\\\\\\\\\\\_NOTICES.md` for attribution information.
 
----
+\---
 
 ## Screenshots and Demo
 
@@ -232,14 +251,14 @@ Screenshots and a demonstration of the application will be added here.
 
 Planned examples include:
 
-- Chess.com board configuration used during testing.
-- ChessAI detecting a live game.
-- Top-three Stockfish recommendation arrows.
-- Opponent legal-move visualization.
-- Manual missed-move recovery.
-- Example gameplay sequence.
+* Chess.com board configuration used during testing.
+* ChessAI detecting a live game.
+* Top-three Stockfish recommendation arrows.
+* Opponent legal-move visualization.
+* Manual missed-move recovery.
+* Example gameplay sequence.
 
----
+\---
 
 ## Author
 
@@ -247,3 +266,4 @@ Planned examples include:
 
 Applied Mathematics, Engineering, and Physics (AMEP) — Mechanical Engineering  
 University of Wisconsin–Madison
+
