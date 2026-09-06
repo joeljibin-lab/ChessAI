@@ -202,35 +202,47 @@ My goal is not to present it as a finished commercial application, but to use it
 
 
 
-## Stockfish
+## \### Stockfish
 
-### 
+## 
 
-### ChessAI uses the Stockfish chess engine for position analysis and move recommendations.
+## ChessAI uses the Stockfish chess engine for position analysis and move recommendations.
 
-### 
+## 
 
-### Stockfish is free software licensed under the GNU General Public License version 3 (GPL v3).
+## Stockfish is free software licensed under the GNU General Public License version 3 (GPL v3).
 
-### 
+## 
 
-### Official project:
+## Official project: https://github.com/official-stockfish/Stockfish
 
-### https://github.com/official-stockfish/Stockfish
+## 
 
-### 
+## The compiled Stockfish binaries are not included in this repository because they exceed GitHub's individual file-size limit.
 
-### The compiled Stockfish binaries are not included in this repository because they exceed GitHub's individual file-size limit.
+## 
 
-### 
+## To run the project, provide a Stockfish binary compiled for Android and place it in the appropriate ABI directory:
 
-### To run the project, provide a Stockfish binary compiled for Android and place it in the appropriate ABI directory:
+## 
 
-### 
+## `app/src/main/jniLibs/arm64-v8a/libstockfish.so`
 
-app/src/main/jniLibs/arm64-v8a/libstockfish.so
+## 
 
+## For an x86\_64 Android emulator:
 
+## 
+
+## `app/src/main/jniLibs/x86\_64/libstockfish.so`
+
+## 
+
+## A Windows Stockfish executable (`stockfish.exe`) cannot be used directly. The binary must be compiled for Android and for the target device architecture.
+
+## 
+
+## See `THIRD\_PARTY\_NOTICES.md` for additional Stockfish licensing information.
 
 ## Chess-Tracker
 
