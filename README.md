@@ -203,7 +203,7 @@ My goal is not to present it as a finished commercial application, but to use it
 
 
 
-## \ Stockfish
+### Stockfish
 
 ## 
 
