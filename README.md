@@ -44,15 +44,11 @@ The current version should therefore be considered a **prototype optimized for t
 
 ### Example Testing Configuration
 
-\### Example Testing Configuration
-
-
-
 !\[ChessAI testing environment and demonstration](images/chessai-demo.png)
 
+\---
 
-
-\---How It Works
+## How It Works
 
 At a high level, the application follows this pipeline:
 
