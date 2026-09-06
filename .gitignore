@@ -32,3 +32,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+app/src/main/jniLibs/arm64-v8a/libstockfish.so
+app/src/main/jniLibs/x86_64/libstockfish.so
